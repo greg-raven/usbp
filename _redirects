@@ -1,0 +1,21 @@
+# domain-level redirects
+
+# usborderpatrol.com          https://www.usborderpatrol.com              301
+# usborderpatrol.net          https://www.usborderpatrol.com              301
+# usborderpatrol.org          https://www.usborderpatrol.com              301
+# www.usborderpatrol.net      https://www.usborderpatrol.com              301
+# www.usborderpatrol.org      https://www.usborderpatrol.com              301
+
+# redirects for moved images
+
+/NogalesSouth.jpg           /_assets/img/NogalesSouth.jpg               301
+/resalien.jpg               /_assets/img/resalien.jpg                   301
+/USA_Night_With_Badge3.jpg  /_assets/img//USA_Night_With_Badge3.jpg     301
+
+# redirects for moved pages
+
+/ads.txt                    /index.html                                 301
+/Border_Patrol90.htm        /usbp/overview/index.html                   301
+/Border_Patrol1712_13.htm   /usbp/traveldocs/border_patrol1712_13.html  301
+/Border_Patrol1712_14.htm   /usbp/traveldocs/border_patrol1712_14.html  301
+/wp-login.php               /index.html                                 301

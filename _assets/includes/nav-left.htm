@@ -1,0 +1,106 @@
+<!-- #bbpragma doctype="html5" root_element="body" encoding="utf-8" -->
+<nav class="panel panel-default">
+	<div class="panel-heading">
+		CONTENTS
+	</div>
+<!-- /.panel-heading -->
+	<div class="panel-body">
+		<ul class="nav nav-pills nav-stacked">
+			<li role="presentation" class="dropdown" id="usbp"> <a class="dropdown-toggle" data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false"> USBP<span class="caret pull-right"></span> </a>
+			<ul class="dropdown-menu">
+				<li><a href="/usbp/overview/index.html">USBP Overview</a></li>
+				<li><a href="/usbp/today/index.html">USBP Today</a></li>
+				<li><a href="/usbp/history/index.html">USBP History</a></li>
+				<li><a href="/usbp/weapons/index.html">USBP Weapons</a></li>
+				<li><a href="/usbp/laws/index.html">USBP Laws</a></li>
+				<li><a href="/usbp/traveldocs/index.html">USBP Travel Documents</a></li>
+			</ul>
+			</li>
+			<li role="presentation" class="dropdown" id="california"> <a class="dropdown-toggle" data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false"> California<span class="caret pull-right"></span> </a>
+			<ul class="dropdown-menu">
+				<li><a href="/california/west/index.html">Western California</a></li>
+				<li><a href="/california/east/index.html">Eastern California</a></li>
+				<li><a href="/california/los-angeles/index.html">Los Angeles</a></li>
+			</ul>
+			</li>
+			<li role="presentation" class="dropdown" id="arizona"> <a class="dropdown-toggle" data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false"> Arizona<span class="caret pull-right"></span> </a>
+			<ul class="dropdown-menu">
+				<li><a href="/arizona/west/index.html">Western Arizona</a></li>
+				<li><a href="/arizona/mid/index.html">Central Arizona</a></li>
+				<li><a href="/arizona/east/index.html">Eastern Arizona</a></li>
+			</ul>
+			</li>
+			<li id="nm"><a href="/new-mexico/index.html">New Mexico</a></li>
+			<li id="tx"><a href="/texas/index.html">Texas</a></li>
+			<li id="tj"><a href="/tijuana/index.html">Tijuana</a></li>
+			<li role="presentation" class="dropdown" id="borders"> <a class="dropdown-toggle" data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false"> Our borders<span class="caret pull-right"></span> </a>
+			<ul class="dropdown-menu">
+				<li><a href="/borders/northern/index.html">Northern border</a></li>
+				<li><a href="/borders/southern/index.html">Southern barrier</a></li>
+				<li><a href="/borders/night/index.html">At night</a></li>
+				<li><a href="/borders/images/index.html">USBP images</a></li>
+				<li><a href="/borders/sbi/index.html">Secure Border Initiative</a></li>
+			</ul>
+			</li>
+			<li id="deport"><a href="/deportation/index.html">Deportation</a></li>
+			<li id="effects"><a href="/effects/index.html">Immigrant impact</a></li>
+			<li id="detention"><a href="/detention/index.html">Being detained</a></li>
+			<li id="slaves"><a href="/sex-slaves/index.html">Sex slaves</a></li>
+			<li id="smuggling"><a href="/smuggling/index.html">Smuggling</a></li>
+			<li id="tunnels"><a href="/tunnels/index.html">Tunnels</a></li>
+			<li id="alqaeda"><a href="/al-qaeda/index.html">Al-Qaeda</a></li>
+			<li id="search"><a href="/search/index.html">Search</a></li>
+		</ul>
+	</div>
+</nav>
+<script>
+	switch (true) {
+	    case ((/usbp/).test(window.location.pathname)):
+	        $("#usbp").addClass("active");
+	        break;
+	    case ((/california/).test(window.location.pathname)):
+	        $("#california").addClass("active");
+	        break;
+	    case ((/arizona/).test(window.location.pathname)):
+	        $("#arizona").addClass("active");
+	        break;
+	    case ((/new-mexico/).test(window.location.pathname)):
+	        $("#nm").addClass("active");
+	        break;
+	    case ((/texas/).test(window.location.pathname)):
+	        $("#tx").addClass("active");
+	        break;
+	    case ((/tijuana/).test(window.location.pathname)):
+	        $("#tj").addClass("active");
+	        break;
+	    case ((/borders/).test(window.location.pathname)):
+	        $("#borders").addClass("active");
+	        break;
+	    case ((/deportation/).test(window.location.pathname)):
+	        $("#deport").addClass("active");
+	        break;
+	    case ((/effects/).test(window.location.pathname)):
+	        $("#effects").addClass("active");
+	        break;
+	    case ((/detention/).test(window.location.pathname)):
+	        $("#detention").addClass("active");
+	        break;
+	    case ((/sex-slaves/).test(window.location.pathname)):
+	        $("#slaves").addClass("active");
+	        break;
+	    case ((/smuggling/).test(window.location.pathname)):
+	        $("#smuggling").addClass("active");
+	        break;
+	    case ((/tunnels/).test(window.location.pathname)):
+	        $("#tunnels").addClass("active");
+	        break;
+	    case ((/al-qaeda/).test(window.location.pathname)):
+	        $("#alqaeda").addClass("active");
+	        break;
+	    case ((/search/).test(window.location.pathname)):
+	        $("#search").addClass("active");
+	        break;
+	    default:
+	        $("#homepage").addClass("active");
+	}
+</script>
